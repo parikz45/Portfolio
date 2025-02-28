@@ -1,0 +1,39 @@
+@import '../vars.css';
+
+.container {
+    background-color: var(--color-secondary);
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 100vw;
+    gap: 10px;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.title{
+    font-size: 50px;
+    font-weight: 700;
+    /* padding-bottom: 65px; */
+}
+.description{
+    font-size: 20px;
+    font-weight: 400;
+}
+.content{
+    padding-right: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.contact{
+    margin-top: 30px;
+}
+.p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
