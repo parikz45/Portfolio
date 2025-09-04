@@ -1,6 +1,6 @@
 import React from 'react'
 import myImage from '../assets/pic10.png'
-import styles from './Projects.module.css';
+import styles from './projects.module.css';
 import Img from '../assets/movie.webp';
 import icon from '../assets/icon.png';
 import todo from '../assets/to-do.png';
