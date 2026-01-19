@@ -10,11 +10,11 @@ import Contact from './Components/Contact';
 
 const App = () => {
   return (
-    <div className="App" >
+    <div className="bg-[#0b0f14]" >
       <Navbar/>
       <Hero/>
       <About/>
-      <Experience/>
+      {/* <Experience/> */}
       <Projects/>
       <Contact/>
     </div>

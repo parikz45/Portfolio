@@ -1,18 +1,48 @@
-import React from 'react'
-import myImage from '../assets/pic1.png';
-import styles from './Hero.module.css' ;
-
 const Hero = () => {
   return (
-    <section className={styles.section}>
-        <div className={styles.container}>
-            <h1 className={styles.title}>Hi, I am Parikshit </h1>
-            <p className={styles.description}>I am a 2nd year BTech Student having experience in react, nodeJS and flutter. Reach out for more info.</p>
-            <a className={styles.button} href=''>Contact me</a>
-        </div>
-        <img className={styles.Image} src={myImage}/>
-    </section>
-  )
-}
+    <section className="relative flex py-37.5 justify-center overflow-hidden">
 
-export default Hero
+      {/* subtle background gradient */}
+      <div className="absolute inset-0 bg-linear-to-b from-[#0e131a] to-[#0b0f14]" />
+
+      <div className="relative text-center px-6 max-w-3xl">
+        <h1 className="text-4xl md:text-5xl font-bold text-white">
+          Parikshit R
+        </h1>
+
+        <p className="mt-3 text-lg text-gray-400">
+          Full Stack Engineer
+        </p>
+
+        <p className="mt-6 text-gray-500 leading-relaxed">
+          I build scalable, production-ready web applications with modern
+          frontend and backend technologies.
+        </p>
+
+        {/* CTA buttons */}
+        <div className="mt-10 flex justify-center gap-4">
+          <a
+            href="/PARIKSHIT-R-Resume.pdf"
+            download
+            className="px-6 py-3 rounded-md bg-white text-black font-medium hover:bg-gray-200 transition"
+          >
+            Download Resume
+          </a>
+
+          <a
+            href="#Contact"
+            className="px-6 py-3 rounded-md border border-white/20 text-white hover:bg-white/10 transition"
+          >
+            Contact Me
+          </a>
+        </div>
+
+
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
+
+
