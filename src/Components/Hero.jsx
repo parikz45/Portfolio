@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="relative flex py-37.5 justify-center overflow-hidden">
+    <section id="home" className="relative flex py-37.5 justify-center overflow-hidden">
 
       {/* subtle background gradient */}
       <div className="absolute inset-0 bg-linear-to-b from-[#0e131a] to-[#0b0f14]" />

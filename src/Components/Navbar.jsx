@@ -1,26 +1,3 @@
-// import React from 'react'
-// import styles from './Navbar.module.css'
-// // import './App.css'
-// import "tailwindcss";
-
-// function Navbar() {
-//   return (
-//     <nav className={styles.navbar}>
-//       <a href='/' className={styles.title}>Portfolio</a>
-//       <div className={styles.menu}>
-//         <ul className={styles.menuItems}>
-//           <li className={styles.li}><a href='#about'>About</a></li>
-//           <li className={styles.li}><a href='#Projects'>Projects</a></li>
-//           <li className={styles.li}><a href='#Experience'>Languages</a></li>
-//           <li className={styles.li}><a href='#Contact'>Contact</a></li>
-//         </ul>
-//       </div>
-//     </nav>
-//   )
-// }
-
-// export default Navbar
-
 import React from 'react'
 
 const Navbar = () => {
@@ -33,13 +10,15 @@ const Navbar = () => {
 
         <ul className="flex gap-4 md:gap-10 text-xl text-gray-300">
           {["Home", "About", "Projects", "Contact"].map(item => (
-            <li
-              key={item}
-              className="hover:text-white transition cursor-pointer"
-            >
-              {item}
-              <a href={`#${item}`} className="sr-only"/>
+            <li key={item} className="hover:text-white transition">
+              <a
+                href={`#${item.toLowerCase()}`}
+                className="block cursor-pointer"
+              >
+                {item}
+              </a>
             </li>
+
           ))}
         </ul>
       </div>

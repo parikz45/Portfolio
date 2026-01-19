@@ -3,7 +3,7 @@ import { Github, Mail, Linkedin } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section className="py-24 bg-[#0b0f14]">
+    <section id="contact" className="py-24 bg-[#0b0f14]">
       <div className="max-w-4xl mx-auto px-6 text-center">
         <h2 className="text-2xl font-semibold text-white mb-4">
           Get In Touch

@@ -6,7 +6,7 @@ import todo from "../assets/chat.webp";
 const Projects = () => {
   return (
     <section
-      id="Projects"
+      id="projects"
       className="py-24"
     >
       <div className="max-w-6xl mx-auto ">
