@@ -32,7 +32,7 @@ const Navbar = () => {
         </span>
 
         <ul className="flex gap-4 md:gap-10 text-xl text-gray-300">
-          {["Home", "About", "Experience", "Projects", "Contact"].map(item => (
+          {["Home", "About", "Projects", "Contact"].map(item => (
             <li
               key={item}
               className="hover:text-white transition cursor-pointer"

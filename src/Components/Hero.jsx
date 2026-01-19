@@ -29,12 +29,6 @@ const Hero = () => {
             Download Resume
           </a>
 
-          <a
-            href="#Contact"
-            className="px-6 py-3 rounded-md border border-white/20 text-white hover:bg-white/10 transition"
-          >
-            Contact Me
-          </a>
         </div>
 
 
